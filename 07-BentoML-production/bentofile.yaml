@@ -1,0 +1,9 @@
+service: "service.py:svc"
+labels:
+  owner: surawut
+  project: 07-BENTOML-PRODUCTION
+include:
+- "*.py"
+python:
+  packages:
+    - sklearn
