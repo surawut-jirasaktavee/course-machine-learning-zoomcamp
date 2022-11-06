@@ -264,6 +264,7 @@ This project exclude:
 ### IN CASE TO ASK SOME QUESTION ABOUT THE PROJECT
 
 Slack: U042PQU7P4Y
+
 LINKEDIN: https://www.linkedin.com/in/surawut-jirasaktavee/
 
 # THANK YOU 🙏
