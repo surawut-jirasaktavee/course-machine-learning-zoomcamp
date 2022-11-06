@@ -8,15 +8,17 @@ In order to push the image container for our model service to `AWS ELASTIC CONTA
 
 > **NOTE:** In order to push the image container with specific `AWS PROFILE` see the [link](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html).
 
-[##TODO]
+Navigate to the search bar and find the `Elastic Container Registry`. 
 
-Add image to create a repository
+- Go to the ECR console and click create.
+- Set the name of your private repo.
+- Leave all options as default and create.
 
-[##TODO]
+![create_ecr_repo](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/crate_ecr_repo.png)
 
-Add image for repository console
+![ecr_repo](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/ecr_repo.png)
 
-This will assume we already have a container image and aws ecr repository. we will push the image to aws repo with following command.
+This will assume we already have a container image. we will push the image to aws repo with following command. you can follow the command that will show you after finish to create the reposity as well.
 
 1. we need to retrieve an authentication token and authenticate your Docker client to your registry.
 
@@ -45,4 +47,6 @@ This will assume we already have a container image and aws ecr repository. we wi
     ```bash
     docker push <your registry uri>
     ```
+    
+![push_image](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/docker_images_tag.png)
 
