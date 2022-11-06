@@ -132,6 +132,8 @@ bentoml models list
 you will see the tag that `BentoML` generate with your model name. you can use `<model_name>:<latest>` to refer to your latest model.
 this will use to load the model to serving the service.
 
+![bentoml_model_list](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/bentoml_model_list.png)
+
 ### SWAGG UI
 
 ![swagger_ui](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/swagger_ui.png)
@@ -182,5 +184,17 @@ After build finish the tag of your image will appear as above. run the next comm
 bentoml containerize <model_name>:<tag> --platform=linux/amd64
 ```
 
-I have specify the base platform that I will to build image by put `--platform=linux/amd64` to the command.
+I have specify the base platform that I will build with the image by put `--platform=linux/amd64` to the command.
 
+![bentoml_containerize](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/bentoml_containerize_build.png)
+
+After build finish. Check image that you just build
+
+```bash
+docker images
+```
+
+Now let's push the image the to `AWS ECR`. Login to the `AWS ECR` and tag the image and then push it.
+To create `AWS Elastic Container Registry` see this [link](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/note/ECR.md) and follow the steps.
+
+![push_image](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/push_image.png)
