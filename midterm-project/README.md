@@ -195,6 +195,8 @@ docker images
 ```
 
 Now let's push the image the to `AWS ECR`. Login to the `AWS ECR` and tag the image and then push it.
-To create `AWS Elastic Container Registry` see this [link](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/note/ECR.md) and follow the steps.
+To create `AWS Elastic Container Registry` see this [link](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/note/ECR.md) and follow the steps. 
+
+After finish those steps you will see your image in the reposity as below:
 
 ![push_image](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/push_image.png)
