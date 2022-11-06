@@ -55,30 +55,25 @@ Navigate to `src` folder. (This folder contain all neccessary things to implemen
 
 - src
   - `notebook.ipynb` include:
-  
-    [x] Dataset loader
-    
-    [x] Data cleaning
-    [x] EDA
-    [x] Data preparation
-    [x] Feature importance analysis
-    [x] Model training
-    [x] Hyper-parameter tuning
-    [x] Model selection
+    - [x] Dataset loaded
+    - [x] Data cleaning
+    - [x] EDA
+    - [x] Data preparation
+    - [x] Feature importance analysis
+    - [x] Model training
+    - [x] Hyper-parameter tuning
+    - [x] Model selection
   - `train.py` include:
-  
-    [x] Export training final model in to the script
-    [x] Dataset loader
-    [x] Data cleaning
-    [x] Data preparation
-    [x] Model training
-    [x] Model evaluation
-    [x] Model saving with `BentoML`
+    - [x] Export training final model in to the script
+    - [x] Dataset loader
+    - [x] Data cleaning
+    - [x] Data preparation
+    - [x] Model training
+    - [x] Model evaluation
+    - [x] Model saving with `BentoML`
   - `predict.py` include:
-  
-    [x] Loading the model
-    [x] Serving the model with web service with `BentoML`
-    
+    - [x] Loading the model
+    - [x] Serving the model with web service with `BentoML`
   - bentoml.yaml (BentoML serving)
   - locustfile.py (load test)
   - customer.json (test data) 
