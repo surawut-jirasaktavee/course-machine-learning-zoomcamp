@@ -223,3 +223,47 @@ After deploy the model to the `AWS FARGATE CLUSTER`. Now the model ready to serv
 ### CREDIT RISK CLASSIFIER DEMO
 
 ![Credit_risk_classifier_demo](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/credit_risk_classifier_demo.gif)
+
+### ABOUT PROJECT
+
+This project include:
+- [x] Problem description 
+- [x] EDA
+- [x] Data cleaning
+- [x] Data preparation
+- [x] Feature importance analysis
+- [x] Model training
+- [x] Hyper-parameter tuning
+- [x] Model selection
+- [x] Model evaluation
+- [x] Exporting notebook to script (final train model)
+- [x] Model deployment
+- [x] Reproducibility
+- [x] Dependency and environment management
+- [x] Containerization
+- [x] Cloud deployment
+- [x] Load test (traffic)
+
+This project exclude:
+- [x] Unit testing
+- [x] Integration test
+
+### PROJECT STACK
+
+- Python
+- Pydantic
+- BentoML
+- AWS ECR
+- AWS ECS (FARGATE)
+- Locust
+- Jupyter notebook
+- Machine learning framework (scikit-learn, xgboost)
+- Pipenv
+- etc
+
+### IN CASE TO ASK SOME QUESTION ABOUT THE PROJECT
+
+Slack: U042PQU7P4Y
+LINKEDIN: https://www.linkedin.com/in/surawut-jirasaktavee/
+
+# THANK YOU 🙏
