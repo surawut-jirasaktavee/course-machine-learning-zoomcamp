@@ -27,15 +27,15 @@ git clone https://github.com/surawut-jirasaktavee/course-machine-learning-zoomca
 ### PROJECT STRUCTURE
 
 - midterm-project
-  > dataset
-    > ...
-  > note
-    > ...
-  > src
-    > ...
-  > Pipfile
-  > Pipfile.lock
-  > README.md
+  - dataset
+    - ...
+  - note
+    - ...
+  - src
+    - ...
+  - Pipfile
+  - Pipfile.lock
+  - README.md
 
 update pip package manager for python package and use pip to install `pipenv` then run pipenv command to install dependencies from this midterm project.
 
