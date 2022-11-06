@@ -86,7 +86,37 @@ bentoml serve --production --reload
 ```
 
 Then you can go to the `localhost:3000` to test the test data in the `customer.json` and `customer2.json` with the swagger ui.
-This model is the batchable model with the feature of `BentoML` you can select type of your model in the `saveModel` function in the `train.py`.
+This model is the batchable model with the feature of `BentoML` 
+
+You can select type of your model in the `saveModel` function in the `train.py`.
+
+```python
+train.py
+def saveModel(model_name: str, enableBatch: None, model, dv):
+    
+    import bentoml
+    
+    if enableBatch:
+        bentoml.xgboost.save_model(model_name, model,
+                                   custom_objects={
+                                       'dictVectorizer': dv
+                                   },
+                                   signatures={
+                                       "predict": {
+                                           "batchable": True,
+                                           "batch_dim": 0
+                                       }
+                                   })
+    else:
+        bentoml.xgboost.save_model(model_name, model,
+                               custom_objects={
+                                   'dictVectorizer': dv
+                               })
+    
+    logging.info('Saved model')
+    
+    print("Save model successfully...")
+```
 
 ### SWAGG UI
 
