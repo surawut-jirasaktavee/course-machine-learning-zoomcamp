@@ -222,6 +222,4 @@ After deploy the model to the `AWS FARGATE CLUSTER`. Now the model ready to serv
 
 ### CREDIT RISK CLASSIFIER DEMO
 
-[##TODO] 
-
-ADD SERVICE DEMO HERE
+![Credit_risk_classifier_demo](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/credit_risk_classifier_demo.gif)
