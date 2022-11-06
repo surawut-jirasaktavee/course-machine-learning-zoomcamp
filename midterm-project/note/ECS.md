@@ -18,11 +18,11 @@
 
   ![create_new_task](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/create_fargate_new_task.png)
   
-8. Select `new lunch type capatibilities`.
+8. Select `new lunch type capatibilities` (**FARGATE**). 
 
   ![task_difinition](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_task_definition.png)
   
-9. Configure `Task and Container definition.
+9. Configure `Task and Container definition`.
 10. Set name of the task and OS.
 
   ![task_config](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_task_config.png)
