@@ -1,0 +1,11 @@
+service: "predict.py:svc"
+labels:
+  owner: credit_risk-team
+  project: credit_risk_scoring
+include:
+- "predict.py"
+python:
+  packages:
+    - xgboost
+    - sklearn
+    - pydantic

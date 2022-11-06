@@ -1,0 +1,23 @@
+{
+    "checking_status": "0<=X<200",
+    "duration": 48.0,
+    "credit_history": "existing_paid",
+    "purpose": "new_car",
+    "credit_amount": 35000.0,
+    "savings_status": "<100",
+    "employment": "7<=X<10",
+    "installment_commitment": 10.0,
+    "personal_status": "div/dep/mar",
+    "sex": "male",
+    "other_parties": "yes",
+    "residence_since": 5.0,
+    "property_magnitude": "life_insurance",
+    "age": 46.0,
+    "other_payment_plans": "yes",
+    "housing": "own",
+    "existing_credits": 3.0,
+    "job": "skilled",
+    "num_dependents": 1.0,
+    "own_telephone": "yes",
+    "foreign_worker": "yes"
+}

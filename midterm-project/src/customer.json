@@ -1,0 +1,23 @@
+{
+    "checking_status": "0<=X<200",
+    "duration": 24.0,
+    "credit_history": "existing_paid",
+    "purpose": "new_car",
+    "credit_amount": 1201.0,
+    "savings_status": "<100",
+    "employment": "<1",
+    "installment_commitment": 4.0,
+    "personal_status": "single",
+    "sex": "male",
+    "other_parties": "no",
+    "residence_since": 1.0,
+    "property_magnitude": "life_insurance",
+    "age": 26.0,
+    "other_payment_plans": "no",
+    "housing": "own",
+    "existing_credits": 1.0,
+    "job": "skilled",
+    "num_dependents": 1.0,
+    "own_telephone": "no",
+    "foreign_worker": "yes"
+}

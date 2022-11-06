@@ -1,0 +1,8 @@
+# MacOS ignore
+.DS_Store
+
+# README ignore
+.README.md.swp
+
+# Notebook ignore
+.ipynb_checkpoints/*
