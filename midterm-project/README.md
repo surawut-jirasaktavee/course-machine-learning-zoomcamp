@@ -98,3 +98,9 @@ Copy the `customer.json` and paste into swagger ui and execute to check the resu
 ![test_data](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/test_data.png)
 ![get_result](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/get_result.png)
 
+### LOCUST UI
+
+In order to you want to test the number of request that your service can handle. go to `localhost:8089` and setting up you number from the ui.
+
+![locust_ui](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/locust_ui.png)
+
