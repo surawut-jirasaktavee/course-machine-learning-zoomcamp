@@ -92,6 +92,9 @@ You can select type of your model in the `saveModel` function in the `train.py`.
 
 ```python
 train.py
+
+...
+
 def saveModel(model_name: str, enableBatch: None, model, dv):
     
     import bentoml
@@ -116,7 +119,18 @@ def saveModel(model_name: str, enableBatch: None, model, dv):
     logging.info('Saved model')
     
     print("Save model successfully...")
+    
+...
 ```
+
+To inspect the saved model from training session. you can check with the command:
+
+```bash
+bentoml models list
+```
+
+you will see the tag that `BentoML` generate with your model name. you can use `<model_name>:<latest>` to refer to your latest model.
+this will use to load the model to serving the service.
 
 ### SWAGG UI
 
@@ -133,4 +147,40 @@ Copy the `customer.json` and paste into swagger ui and execute to check the resu
 In order to you want to test the number of request that your service can handle. go to `localhost:8089` and setting up you number from the ui.
 
 ![locust_ui](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/locust_ui.png)
+
+Now, Let's deploy this model to the cloud provider to give the ability and performance more locally. I will use AWS provider in this project.
+
+To deploying the model with container service (`AWS fargate`). I will build the image of the model service and then push to the registry (`AWS ECR`). this way I can get the model from the registry and use the image to deploy as the task in the fargate cluster. you will need `AWS CLI` to use aws commandline to login and push your image.
+
+Let's build the image first. For this task i will use `BentoML` to build the image. Create the `bentofile.yaml` and put the necessary thing for your service.
+
+```yaml
+service: "predict.py:svc"
+labels:
+  owner: credit_risk-team
+  project: credit_risk_scoring
+include:
+- "predict.py"
+python:
+  packages:
+    - xgboost
+    - sklearn
+    - pydantic
+```
+
+Then run the command:
+
+```bash
+bentoml build
+```
+
+![bentoml_build](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/bentoml_build.png)
+
+After build finish the tag of your image will appear as above. run the next command with that tag.
+
+```bash
+bentoml containerize <model_name>:<tag> --platform=linux/amd64
+```
+
+I have specify the base platform that I will to build image by put `--platform=linux/amd64` to the command.
 
