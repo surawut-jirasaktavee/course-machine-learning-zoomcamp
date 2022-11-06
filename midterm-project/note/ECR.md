@@ -41,6 +41,8 @@ This will assume we already have a container image. we will push the image to aw
     ```bash
     docker tag <image_name:tag> <your registry uri>
     ```
+    
+![push_image](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/docker_images_tag.png)
 
 4. Run the following command to push the image to the registry.
 
@@ -48,5 +50,5 @@ This will assume we already have a container image. we will push the image to aw
     docker push <your registry uri>
     ```
     
-![push_image](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/docker_images_tag.png)
-
+![image_in_repo](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/push_image.png)
+ 
