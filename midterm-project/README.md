@@ -79,4 +79,22 @@ Navigate to `src` folder. (This folder contain all neccessary things to implemen
   - customer.json (test data) 
   - customer2.json (test data)
 
+In order to serving the model locally run the command:
+
+```bash
+bentoml serve --production --reload
+```
+
+Then you can go to the `localhost:3000` to test the test data in the `customer.json` and `customer2.json` with the swagger ui.
+This model is the batchable model with the feature of `BentoML` you can select type of your model in the `saveModel` function in the `train.py`.
+
+### SWAGG UI
+
+![swagger_ui](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/swagger_ui.png)
+![swagger_ui](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/swagger_ui2.png)
+
+Copy the `customer.json` and paste into swagger ui and execute to check the result.
+
+![test_data](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/test_data.png)
+![get_result](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/get_result.png)
 
