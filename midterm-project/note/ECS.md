@@ -12,10 +12,7 @@
 
   ![cluster_config](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_cluster_config.png)
 
-5. Create cluster.
-
-  ![Create cluster](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_cluster.png)
- 
+5. Then create cluster.
 6. From the left side select `Task definition` bar.
 7. Select `Create new Task Definition`
 
@@ -39,6 +36,8 @@
   ![task_add_container](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_cluster_add_container.png)
   
 Now your will have a task definition.
+  
+  ![task_definition](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_cluster.png)
   
 13. Navigate back to `Cluster` from the left side bar and select the `cluster` that you created.
 14. Create `Task Run`
