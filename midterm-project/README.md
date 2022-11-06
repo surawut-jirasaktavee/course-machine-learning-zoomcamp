@@ -205,6 +205,8 @@ After finish those steps you will see your image in the reposity as below:
 
 ### AWS ELASTIC CONTAINER SERVICE (FARGATE CLUSTER)
 
+In order to serve the model with `AWS FARGATE CLUSTER` follow the steps from this [link](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/note/ECS.md)
+
 ![fargate_cluster_running](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_task_running.png)
 
 After deploy the model to the `AWS FARGATE CLUSTER`. Now the model ready to serve the `Credit risk classify` for every customer data.
@@ -218,3 +220,8 @@ After deploy the model to the `AWS FARGATE CLUSTER`. Now the model ready to serv
 
 ![credit_risk_classifier_service](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/credit_risk_classifier_service.png)
 
+### CREDIT RISK CLASSIFIER DEMO
+
+[##TODO] 
+
+ADD SERVICE DEMO HERE
