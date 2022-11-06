@@ -57,6 +57,7 @@ Navigate to `src` folder. (This folder contain all neccessary things to implemen
   - `notebook.ipynb` include:
   
     [x] Dataset loader
+    
     [x] Data cleaning
     [x] EDA
     [x] Data preparation
