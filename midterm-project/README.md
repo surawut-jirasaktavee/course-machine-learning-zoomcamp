@@ -12,10 +12,45 @@ The Credit risk scoring from Machine learning method is the great solution for t
 
 ## DATASET
 
-For see the dataset information. Please see the [link]()
+For see the dataset information. Please see the [link](https://www.openml.org/search?type=data&sort=runs&status=active&id=31)
 
 ## PROJECT INSTRUCTION
 
 For reproduction this project follow the step below:
+
+First you need to clone this repo
+
+```bash
+git clone https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp.git
+```
+
+### PROJECT STRUCTURE
+
+- midterm-project
+  > dataset
+    > ...
+  > note
+    > ...
+  > src
+    > ...
+  > Pipfile
+  > Pipfile.lock
+  > README.md
+
+update pip package manager for python package and use pip to install `pipenv` then run pipenv command to install dependencies from this midterm project.
+
+```bash
+python -m pip install --upgrade pip
+pip install pipenv
+pipenv install
+```
+
+then activate to the environment
+
+```bash
+pipenv shell
+```
+
+
 
 
