@@ -51,6 +51,15 @@ then activate to the environment
 pipenv shell
 ```
 
+Navigate to `src` folder. (This folder contain all neccessary things to implement the service)
 
+- src
+  - notebook.ipynb
+  - train.py
+  - predict.py
+  - bentoml.yaml
+  - locustfile.py
+  - customer.json
+  - customer2.json
 
-
+I kept all EDA, training, hyper-parameter tuning and model selection processes in `notebook.ipynb`.
