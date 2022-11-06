@@ -154,6 +154,8 @@ Now, Let's deploy this model to the cloud provider to give the ability and perfo
 
 To deploying the model with container service (`AWS fargate`). I will build the image of the model service and then push to the registry (`AWS ECR`). this way I can get the model from the registry and use the image to deploy as the task in the fargate cluster. you will need `AWS CLI` to use aws commandline to login and push your image.
 
+### AWS ELASTIC CONTAINER REGISTRY
+
 Let's build the image first. For this task i will use `BentoML` to build the image. Create the `bentofile.yaml` and put the necessary thing for your service.
 
 ```yaml
@@ -200,3 +202,19 @@ To create `AWS Elastic Container Registry` see this [link](https://github.com/su
 After finish those steps you will see your image in the reposity as below:
 
 ![push_image](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/push_image.png)
+
+### AWS ELASTIC CONTAINER SERVICE (FARGATE CLUSTER)
+
+![fargate_cluster_running](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_task_running.png)
+
+After deploy the model to the `AWS FARGATE CLUSTER`. Now the model ready to serve the `Credit risk classify` for every customer data.
+
+- Go to the Cluster on the left bar.
+- Select the task that you created.
+- In the task info you will see the publicIP address
+- Open the browser with the `publicIP:port`
+
+![task_info](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/fargate_task_info.png)
+
+![credit_risk_classifier_service](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/midterm-project/images/credit_risk_classifier_service.png)
+
