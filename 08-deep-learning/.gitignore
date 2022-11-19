@@ -1,0 +1,6 @@
+.DS_store
+
+*.jpg
+
+
+.ipynb_checkpoints/
