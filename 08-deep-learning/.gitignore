@@ -2,5 +2,6 @@
 
 *.jpg
 
+.vscode
 
 .ipynb_checkpoints/
