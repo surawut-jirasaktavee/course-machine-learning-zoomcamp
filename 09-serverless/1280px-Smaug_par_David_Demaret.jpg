@@ -1,0 +1,18 @@
+--2022-11-28 21:21:04--  https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Smaug_par_David_Demaret.jpg/1280px-Smaug_par_David_Demaret.jpg
+Resolving upload.wikimedia.org (upload.wikimedia.org)... 2001:df2:e500:ed1a::2:b, 103.102.166.240
+Connecting to upload.wikimedia.org (upload.wikimedia.org)|2001:df2:e500:ed1a::2:b|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 376127 (367K) [image/jpeg]
+Saving to: ‘1280px-Smaug_par_David_Demaret.jpg.1’
+
+     0K .......... .......... .......... .......... .......... 13%  206K 2s
+    50K .......... .......... .......... .......... .......... 27%  912K 1s
+   100K .......... .......... .......... .......... .......... 40%  469K 1s
+   150K .......... .......... .......... .......... .......... 54% 2.01M 0s
+   200K .......... .......... .......... .......... .......... 68%  762K 0s
+   250K .......... .......... .......... .......... .......... 81% 2.02M 0s
+   300K .......... .......... .......... .......... .......... 95%  933K 0s
+   350K .......... .......                                    100% 93.9M=0.6s
+
+2022-11-28 21:21:05 (642 KB/s) - ‘1280px-Smaug_par_David_Demaret.jpg.1’ saved [376127/376127]
+
