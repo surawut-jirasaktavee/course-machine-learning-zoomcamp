@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  beans-model:
+    image: beans-model:xception_final_model
+  beans-model-gateway:
+    image: beans-model-gateway:v01
+    environment:
+      - TF_SERVING_HOST=beans-model:8500
+    ports:
+      - "9696:9696"
+  
