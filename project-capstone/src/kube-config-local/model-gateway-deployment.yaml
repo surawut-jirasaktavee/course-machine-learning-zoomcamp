@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: beans-model-gateway
+spec:
+  selector:
+    matchLabels:
+      app: beans-model-gateway
+  template:
+    metadata:
+      labels:
+        app: beans-model-gateway
+    spec:
+      containers:
+      - name: beans-model-gateway
+        image: beans-model-gateway:v01
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "1024m"
+        ports:
+        - containerPort: 9696
+        env:
+          - name: TF_SERVING_HOST
+            value: tf-serving-beans-model.default.svc.cluster.local:8500

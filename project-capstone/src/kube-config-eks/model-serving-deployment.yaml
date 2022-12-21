@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tf-serving-beans-model
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tf-serving-beans-model
+  template:
+    metadata:
+      labels:
+        app: tf-serving-beans-model
+    spec:
+      containers:
+      - name: tf-serving-beans-model
+        image: # Put your model serving here
+        resources:
+          limits:
+            memory: "512Mi"
+            cpu: "1024m"
+        ports:
+        - containerPort: 8500

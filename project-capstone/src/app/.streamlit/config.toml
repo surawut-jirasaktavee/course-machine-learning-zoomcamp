@@ -1,0 +1,14 @@
+# config.toml
+
+[browser]
+gatherUsageStats = false
+
+[log]
+level = "warning"
+
+[server]
+enableCORS = false
+
+[ui]
+theme = "dark"
+page_bg_color = "#282a36"
