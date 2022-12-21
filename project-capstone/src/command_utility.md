@@ -56,7 +56,7 @@ beans-model-gateway:v01
 ## Build docker image for application in side app folder
 
 ```bash
-docker build -t bean-classifcation-app:v01 .
+docker build -t bean-app:v02 .
 ```
 
 ## Run docker container with bean-classification image
@@ -64,7 +64,7 @@ docker build -t bean-classifcation-app:v01 .
 ```bash
 docker run -it --rm \
 -p 8501:8501 \
-bean-classification-app:v01
+bean-app:v02
 ```
 
 ## Kind load docker image in cluster
@@ -125,8 +125,8 @@ PREFIX=${ACCOUNT_ID}.dkr.ecr.${REGION}.amazonaws.com/${REGISTRY_NAME}
 ### Tag the serving app to push
 
 ```bash
-APP_LOCAL=bean-classification-app:v01
-APP_REMOTE=${PREFIX}:bean-classification-app-v01
+APP_LOCAL=bean-app:v02
+APP_REMOTE=${PREFIX}:bean-app-v02
 docker tag ${APP_LOCAL} ${APP_REMOTE}
 ```
 
@@ -186,7 +186,7 @@ To see how to install `eksctl` [link](https://docs.aws.amazon.com/eks/latest/use
 wget https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz | tar xzfv eksctl_Linux_amd64.tag.gz
 ```
 
-### Crate eks cluster
+### Crate `EKS` Cluster
 
 ```bash
 eksctl create cluster -f ./kube-config-eks/eks-config.yaml
@@ -198,6 +198,12 @@ kubectl apply -f ./kube-config-eks/
 
 ```bash
 kubectl get svc
+```
+
+### Delete `EKS` Cluster
+
+```bash
+eks delete cluster <cluster_name>
 ```
 
 ### Port for-ward in case of testing without External Loadbalancer

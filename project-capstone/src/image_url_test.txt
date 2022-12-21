@@ -1,0 +1,11 @@
+Healthy:
+
+https://datasets-server.huggingface.co/assets/beans/--/default/test/98/image/image.jpg
+
+Bean rust:
+
+https://datasets-server.huggingface.co/assets/beans/--/default/test/84/image/image.jpg
+
+Angular_leaf_spot:
+
+https://datasets-server.huggingface.co/assets/beans/--/default/test/24/image/image.jpg
