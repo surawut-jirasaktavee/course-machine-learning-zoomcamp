@@ -4,4 +4,8 @@
 .ipynb_checkpoints
 *.ipynb_checkpoints
 
-
+.terraform
+.terraform.lock.hcl
+.terrraform.tfstate.backup
+terraform.tfstate
+.terraform.tfstate.lock.info

@@ -33,7 +33,7 @@ def prepare_request(X,
     pb_request.inputs[input].CopyFrom(np_to_protobuf(X))
 
     return pb_request
-    
+   
    
 def predict(url: str, timeout: float=20.0):
 
@@ -74,7 +74,7 @@ def predict_endpoint():
 
 if __name__ == "__main__":
 
-    # url = "https://datasets-server.huggingface.co/assets/beans/--/default/test/9/image/image.jpg"
-    # response = predict(url)
-    # print(response)
-    app.run(debug=True, host="0.0.0.0", port=9696)
+    url = "https://datasets-server.huggingface.co/assets/beans/--/default/test/9/image/image.jpg"
+    response = predict(url)
+    print(response)
+    # app.run(debug=True, host="0.0.0.0", port=9696)

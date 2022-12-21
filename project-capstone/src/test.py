@@ -1,6 +1,8 @@
 import requests
 
-url = "http://localhost:9696/predict"
+# url = "http://localhost:9696/predict" # Test model gateway
+# url = "http://localhost:8080/predict" # Test model serving
+url = ""
 
 # source images
 # https://huggingface.co/datasets/beans/viewer/default/test

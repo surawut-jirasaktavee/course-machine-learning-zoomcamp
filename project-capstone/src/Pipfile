@@ -9,7 +9,6 @@ numpy = "*"
 grpcio = "==1.42.0"
 tensorflow-serving-api = "==2.7.0"
 flask = "*"
-streamlit = "*"
 gunicorn = "*"
 tensorflow-protobuf = "==2.7.0"
 
