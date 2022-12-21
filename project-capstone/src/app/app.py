@@ -8,7 +8,7 @@ healthy = Image.open('./images/healthy.jpg')
 angular_leaf_spot = Image.open('./images/angular_leaf_spot.jpg')
 
 # Put your serving gateway here
-service_url = os.getenv("url", "")
+service_url = os.getenv("TF_SERVING_HOST", "http://aea6fee5ec9024dc6be239b884975970-1107130028.us-west-1.elb.amazonaws.com/predict")
 
 # Add a logo to the top of the page
 st.image("./images/beans.jpeg", width=200)

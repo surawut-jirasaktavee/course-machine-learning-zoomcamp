@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: beans-model-gateway
-        image: # Put your image for the gateway
+        image: 551011018709.dkr.ecr.us-west-1.amazonaws.com/tf-serving-img:beans-model-gateway-v02
         resources:
           limits:
             memory: "512Mi"

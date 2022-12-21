@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: tf-serving-beans-model
-        image: # Put your model serving here
+        image: 551011018709.dkr.ecr.us-west-1.amazonaws.com/tf-serving-img:beans-model-xception_final_model
         resources:
           limits:
             memory: "512Mi"
