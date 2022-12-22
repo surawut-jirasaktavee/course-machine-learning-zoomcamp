@@ -1,6 +1,6 @@
 # MACHINE LEARNING ZOOMCAMP
 
-This is the `Project Capstone cohort-1` for [Machine Learning Zoomcamp]() of [DataTalkClubs]()
+This is the `Project Capstone cohort-1` for [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) of [DataTalkClubs](https://datatalks.club/)
 
 ## PROJECT NAME: Bean Serving Classification
 
@@ -86,13 +86,13 @@ aws s3 cp <soumodel_name_folderrce> S3_bucket> --recursive
 
 ### DEPLOYMENT
 
-To deploy model with `Dockerfile` follow with the [instruction]()
+To deploy model with `Dockerfile` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/deploy_with_dockerfile.md)
 
-To deploy model with `docker-compose` follow with the [instruction]()
+To deploy model with `docker-compose` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/tree/main/project-capstone/instruction#:~:text=deploy_with_docker%2Dcompose.md)
 
-To deploy model with `kubernetes-local-cluster` follow with the [instruction]()
+To deploy model with `kubernetes-local-cluster` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/deploy_with_kubernetes-local.md)
 
-To deploy model with `kubernetes with AWS EKS` follow with the [instruction]()
+To deploy model with `kubernetes with AWS EKS` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/deploy_with_kubernetes-eks.md)
 
 ### Additional deploy Tensorflow serving with `Streamlit` app with Steamlit Cloud
 
@@ -110,26 +110,26 @@ https://www.youtube.com/watch?v=cM6nmXbMWGI
 
 This project includes:
 
-[x] Problem description
-[x] Dataset downloading
-[x] EDA
-[x] Data preparation
-[x] Data augmentation
-[x] Model training
-[x] Model selection
-[x] Model hyper parameter tuning
-[x] Model evaluation
-[x] Exporting notebook to script (final train model)
-[x] Model deployment
-[x] Reproducibility
-[x] Dependency and environment management
-[x] Containerization
-[x] Cloud deployment
+- [x] Problem description
+- [x] Dataset downloading
+- [x] EDA
+- [x] Data preparation
+- [x] Data augmentation
+- [x] Model training
+- [x] Model selection
+- [x] Model hyper parameter tuning
+- [x] Model evaluation
+- [x] Exporting notebook to script (final train model)
+- [x] Model deployment
+- [x] Reproducibility
+- [x] Dependency and environment management
+- [x] Containerization
+- [x] Cloud deployment
 
 This project excludes:
 
-[] Unit tests
-[] Integration tests
+- [ ] Unit tests
+- [ ] Integration tests
 
 ## PROJECT STACK
 

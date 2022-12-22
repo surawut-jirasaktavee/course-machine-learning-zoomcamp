@@ -39,7 +39,7 @@ In order to To see how to install `eksctl` see the [link](https://docs.aws.amazo
 wget https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz | tar xzfv eksctl_Linux_amd64.tag.gz
 ```
 
-### AWS ECR see the [instructions]()
+### AWS ECR see the [instructions](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/aws_ecr.md)
 
 ## Deployment
 
