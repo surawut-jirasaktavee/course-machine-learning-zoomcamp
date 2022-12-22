@@ -128,8 +128,8 @@ This project includes:
 
 This project excludes:
 
-- [] Unit tests
-- [] Integration tests
+- [ ] Unit tests
+- [ ] Integration tests
 
 ## PROJECT STACK
 
