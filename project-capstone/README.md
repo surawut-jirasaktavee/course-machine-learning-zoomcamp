@@ -4,6 +4,10 @@ This is the `Project Capstone cohort-1` for [Machine Learning Zoomcamp](https://
 
 ## PROJECT NAME: Bean Serving Classification
 
+## PROJECT ARCHITECTURE
+
+![](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/images/architecture.png)
+
 ## PROBLEM DESCRIPTION
 
 The purpose of this project is to show what I have learned about the machine learning zoomcamp course and how I understand all of it. And once I have understood what I can apply for it. With this purpose I have decided to apply with my interest or favorite things that is `Bean` I always love to eat beans. And I will always eat beans everyday. So I have combined my knowledge from this course and apply to my interest/favorite and show what I can do with it. 
