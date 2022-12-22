@@ -45,6 +45,8 @@ tree
 
 If `tree` had installed already the hierarchy of the project will show up.
 
+![](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/images/tree_dir.png)
+
 ### PROJECT DEPENDENCIES
 
 For experiment parts will be inside the notebook folder. Install the dependencies for experiment parts
