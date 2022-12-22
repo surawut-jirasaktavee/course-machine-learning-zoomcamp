@@ -111,24 +111,39 @@ https://www.youtube.com/watch?v=cM6nmXbMWGI
 This project includes:
 
 [x] Problem description
+
 [x] Dataset downloading
+
 [x] EDA
+
 [x] Data preparation
+
 [x] Data augmentation
+
 [x] Model training
+
 [x] Model selection
+
 [x] Model hyper parameter tuning
+
 [x] Model evaluation
+
 [x] Exporting notebook to script (final train model)
+
 [x] Model deployment
+
 [x] Reproducibility
+
 [x] Dependency and environment management
+
 [x] Containerization
+
 [x] Cloud deployment
 
 This project excludes:
 
 [] Unit tests
+
 [] Integration tests
 
 ## PROJECT STACK
