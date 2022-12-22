@@ -1,6 +1,6 @@
 # MACHINE LEARNING ZOOMCAMP
 
-This is the `Project Capstone cohort-1` for [Machine Learning Zoomcamp]() of [DataTalkClubs]()
+This is the `Project Capstone cohort-1` for [Machine Learning Zoomcamp](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp) of [DataTalkClubs](https://datatalks.club/)
 
 ## PROJECT NAME: Bean Serving Classification
 
