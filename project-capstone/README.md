@@ -86,13 +86,13 @@ aws s3 cp <soumodel_name_folderrce> S3_bucket> --recursive
 
 ### DEPLOYMENT
 
-To deploy model with `Dockerfile` follow with the [instruction]()
+To deploy model with `Dockerfile` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/deploy_with_dockerfile.md)
 
-To deploy model with `docker-compose` follow with the [instruction]()
+To deploy model with `docker-compose` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/tree/main/project-capstone/instruction#:~:text=deploy_with_docker%2Dcompose.md)
 
-To deploy model with `kubernetes-local-cluster` follow with the [instruction]()
+To deploy model with `kubernetes-local-cluster` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/deploy_with_kubernetes-local.md)
 
-To deploy model with `kubernetes with AWS EKS` follow with the [instruction]()
+To deploy model with `kubernetes with AWS EKS` follow with the [instruction](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/instruction/deploy_with_kubernetes-eks.md)
 
 ### Additional deploy Tensorflow serving with `Streamlit` app with Steamlit Cloud
 
