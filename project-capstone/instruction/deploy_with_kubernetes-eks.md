@@ -49,6 +49,8 @@ wget https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(unam
 eksctl create cluster -f ./kube-config-eks/eks-config.yaml
 ```
 
+![](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/images/aws_eks.png)
+
 ```eks-config.yaml
 apiVersion: eksctl.io/v1alpha5
 kind: ClusterConfig
