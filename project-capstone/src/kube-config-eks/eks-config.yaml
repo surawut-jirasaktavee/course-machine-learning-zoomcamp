@@ -7,5 +7,3 @@ nodeGroups:
   - name: tf-serving-node-group-m5-xlarge
     instanceType: m5.xlarge
     desiredCapacity: 2
-
- 

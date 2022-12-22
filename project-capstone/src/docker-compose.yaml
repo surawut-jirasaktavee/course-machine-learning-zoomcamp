@@ -3,7 +3,7 @@ services:
   beans-model:
     image: beans-model:xception_final_model
   beans-model-gateway:
-    image: beans-model-gateway:v01
+    image: beans-model-gateway:v02
     environment:
       - TF_SERVING_HOST=beans-model:8500
     ports:
