@@ -135,6 +135,8 @@ See the service inside Kubernetes cluster:
 kubectl get pod,deploy,svc
 ```
 
+![](https://github.com/surawut-jirasaktavee/course-machine-learning-zoomcamp/blob/main/project-capstone/images/aws_eks_pod.png)
+
 Test with the following file:
 
 ```bash
