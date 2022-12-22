@@ -147,6 +147,7 @@ This project excludes:
 - AWS EC2
 - Jupyter notebook
 - Pipenv
+- Flask
 - Docker
 - etc
 
